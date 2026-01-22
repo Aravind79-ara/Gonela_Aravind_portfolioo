@@ -96,7 +96,10 @@ box-shadow: 1px 4px 8px white;
 
 /* projects */
 .projects ul{list-style:none;padding:10px;display:flex;flex-direction:column;gap:8px;}
-.project-btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px;border-radius:10px;color:rgb(231, 197, 197);cursor:pointer;text-align:left}
+.project-btn{background:transparent;
+  border:1px solid rgba(255,255,255,0.06);padding:10px;border-radius:10px;color:rgb(231, 197, 197);cursor:pointer;text-align:left;
+font-size: medium;font-weight: 650;
+}
 .dropdown{display:none;padding:8px 10px;border-radius:10px;margin-top:6px;background:rgba(255,255,255,0.02)}
 .dropdown a{display:block;color:var(--teal);text-decoration:none;padding:6px 0}
 
@@ -200,7 +203,11 @@ box-shadow: 1px 4px 8px white;
       <section>
         <article id="about" class="card section about">
           <h2>About me</h2>
-          <p>I’m a passionate and creative web designer with a keen eye for clean, user-friendly design. I specialize in crafting responsive websites that deliver great user experiences across devices. I enjoy converting ideas into polished, functional digital products. I stay updated with the latest web trends and tools.</p>
+          <p>I’m a passionate and detail-oriented web designer/developer with a strong interest in building clean and modern user interfaces.
+I specialize in creating responsive websites using HTML, CSS, JavaScript, and React JS for smooth user experience across all devices.
+I enjoy transforming ideas into structured, functional, and visually appealing web pages with a focus on usability.
+I stay updated with the latest UI trends, tools, and best practices to deliver efficient and professional designs.
+I’m also skilled in SQL, Excel, and Power BI, supporting data-driven improvements in web applications. </p>
         </article>
 
         <article id="education" class="card section">
@@ -233,11 +240,9 @@ box-shadow: 1px 4px 8px white;
         </article>
 
         <article id="projects" class="card section projects">
-          <h2>Github</h2>
-          <button class="project-btn" data-target="p3">profile▾</button>
-           <div id="p3" class="dropdown">
-          <a href="https://github.com/Aravind79-ara">Github profile</a>
-          </div>
+          <h2>Github and Leetcode</h2>
+          <button class="project-btn" data-target="p3"><a href="https://github.com/Aravind79-ara" style="text-decoration: none;color:var(--bg)">Github profile</a></button>
+          <button class="project-btn" data-target="p3"><a href="https://leetcode.com/Aravind79-ara" style="text-decoration: none;color:var(--bg)">Leetcode Profile</a></button>
           <h2>Projects</h2>
           <ul>
             <li>
